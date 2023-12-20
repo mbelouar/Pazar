@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.befor-header {
+    border-bottom: solid rgb(222, 222, 222) 3px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-name {
+    width: 120px;
+    height: 120px;
+    flex: 1;
+}
+
+header .header-search {
+    padding: 45px 0;
+    margin: 0 20px;
+    display: flex;
+    flex: 5;
+}
+
+header .header-search .header-search-input {
+    padding-left: 18px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: solid 1px #a29999;
+    border-right: 0;
+    height: 45px;
+    /* width: 100%; */
+    box-shadow: none;
+    background: rgba(0,0,0,0);
+    flex: 1;
+}
+
+header .header-search .header-search-button {
+    width: 65px;
+    height: 45px;
+    background-color: inherit;
+    cursor: pointer;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border: solid 1px #a29999;
+    border-left: 0;
+}
+
+header .header-form {
+    margin: 60px 0;
+    text-align: left;
+    flex: 1;
+    text-align: right;
+}
+
+header .header-form a {
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+/* start section style */
+
+section {
+    margin-top: 30px;
+}
+
+section .section-catogries {
+    width: 100%;
+
+}
+
+section .section-catogries-name {
+    width: 100%;
+    margin: 30px 0;
+}
+
+section .shop-catogries {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+}
+
+section .shop-catogries .one-catogre {
+    width: 250px;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+section .shop-catogries .one-catogre img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+section .shop-catogries .one-catogre .catogre-text {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+section .section-bazar {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 0 10px; */
+    /* margin-bottom: 30px; */
+}
+
+section .before-bazar {
+    background-color: #FDEBD2;
+}
+
+section .section-bazar .bazar{
+    width: 49%;
+    margin: 0 auto;
+}
+
+section .section-bazar .bazar-name {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+section .section-bazar .bazar-content {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+section .section-bazar .section-question {
+    width: 100%;
+    text-align: center !important;
+    margin: 30px;
+}
+
+section .section-bazar .section-question a{
+    color: black;
+    border: solid 2px black;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    width: 150px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+section .section-bazar .section-question a:hover {
+    box-shadow: 1px 1px 6px 0px black;
+}
+
+
+section .before-email {
+    background-color: #D7E6F5;
+}
+section .section-email {
+    padding: 30px 0;
+    text-align: center !important;
+}
+
+section .section-email h3 {
+    margin-bottom: 30px;
+}
+
+section .section-email input {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px #a29999;
+    padding-left: 18px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    margin: 0;
+}
+
+section .section-email button {
+    padding: 10px;
+    background-color: white;
+    border: solid 1px #a29999;
+    border-left: 0;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: -4px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+/* start footer styling */
+.before-footer {
+    background-color: #4D6BC6;
+}
+
+footer {
+    display: flex;
+    color: white;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+footer .footer-links {
+
+}
+
+footer .footer-links a{
+    color: white;
+    margin-left: 10px;
+}
